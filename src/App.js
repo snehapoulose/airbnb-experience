@@ -8,6 +8,7 @@ function App() {
   const cards = data.map((item) => {
     return <Card key={item.id} {...item} />;
   });
+  
   return (
     <div>
       <Navbar />
