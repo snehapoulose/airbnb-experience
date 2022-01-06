@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  background-color: #bdc3c7;
+}
+.navbar-logo {
+  height: 35px;
+  max-width: 100px;
+}
+
+section {
+  padding: 40px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 240px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 16px;
+}
+
+.card-image {
+  width: 220px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+
+.card-title {
+  overflow: hidden;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-rating {
+  height: 14px;
+}
+.card-price {
+  margin-top: auto;
+  font-weight: bold;
+}
